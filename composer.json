@@ -1,15 +1,23 @@
 {
     "name": "hoangth/ecwebserver",
+    "type": "library",
     "description": "ecWeb Server SDK",
+    "homepage": "http://ecweb.vn",
+    "authors" : [
+        {
+            "name": "Le Minh Hoang",
+            "email": "hoangscp@gmail.com",
+            "homepage": "http://ecweb.vn"
+        }
+    ],
     "require": {
+        "php": ">=5.3.9",
         "guzzlehttp/guzzle": "^6.2",
         "guzzlehttp/psr7": "^1.2"
     },
-    "authors": [
-        {
-            "name": "Le Minh Hoang",
-            "email": "hoangscp@gmail.com"
+    "autoload": {
+        "psr-4": {
+            "EcwebServer\\": "src/"
         }
-    ],
-    "minimum-stability": "stable"
+    },
 }
