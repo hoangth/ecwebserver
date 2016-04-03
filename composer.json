@@ -1,0 +1,15 @@
+{
+    "name": "hoang/servers",
+    "description": "ecWeb Server Remote Manager",
+    "require": {
+        "guzzlehttp/guzzle": "^6.2",
+        "guzzlehttp/psr7": "^1.2"
+    },
+    "authors": [
+        {
+            "name": "Le Minh Hoang",
+            "email": "hoangscp@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
