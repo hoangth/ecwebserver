@@ -5,8 +5,7 @@ namespace EcwebServers;
 /**
  * This is the EcwebServers class.
  *
- * It's responsible for loading a `.env` file in the given directory and
- * setting the environment vars.
+ * It's responsible for loading sdk
  */
 class EcwebServers
 {
