@@ -1,6 +1,6 @@
 {
-    "name": "hoang/servers",
-    "description": "ecWeb Server Remote Manager",
+    "name": "hoangth/ecwebserver",
+    "description": "ecWeb Server SDK",
     "require": {
         "guzzlehttp/guzzle": "^6.2",
         "guzzlehttp/psr7": "^1.2"
